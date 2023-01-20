@@ -6,6 +6,10 @@ Location Reminder is a TO-DO list app with location reminders that remind the us
 ## Features
 
 * ### MVVM Architecture
+* ### Firebase Authentication
+* ### Geofencing API
+* ### Google Maps API
+* ### UI and Unit Testing
 
 
 ### Dependencies
