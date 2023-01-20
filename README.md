@@ -5,7 +5,7 @@ Location Reminder is a TO-DO list app with location reminders that remind the us
 
 ## Features
 
-*### MVVM Architecture
+* ### MVVM Architecture
 
 
 ### Dependencies
