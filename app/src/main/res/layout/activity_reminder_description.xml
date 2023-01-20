@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!--Data item that holds the reminder details-->
+        <variable
+            name="reminderDataItem"
+            type="com.udacity.project4.locationreminders.reminderslist.ReminderDataItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".locationreminders.ReminderDescriptionActivity">
+        <!-- complete TODO: add the design of the reminder details-->
+
+<!--        image view to desgin screen -->
+        <ImageView
+            android:id="@+id/image_location"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_baseline_edit_location_24"
+            app:layout_constraintBottom_toTopOf="@id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--        insert in this title from location -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@{@string/title(reminderDataItem.title)}"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@id/decription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_location"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <!--        insert in this description from location -->
+
+        <TextView
+            android:id="@+id/decription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{@string/desc(reminderDataItem.description)}"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@id/location"
+            app:layout_constraintEnd_toEndOf="@+id/title"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <!--        insert in this name of location -->
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{@string/location(reminderDataItem.location)}"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="@+id/distance"
+            app:layout_constraintEnd_toEndOf="@+id/decription"
+            app:layout_constraintStart_toStartOf="@+id/decription"
+            app:layout_constraintTop_toBottomOf="@+id/decription" />
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
