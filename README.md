@@ -1,11 +1,12 @@
 # Location Reminder
 
-A Todo list app with location reminders that remind the user to do something when he reaches a specific location. The app will require the user to create an account and login to set and access reminders.
+Location Reminder is a TO-DO list app with location reminders that remind the user to do something when the user is at a specific location. The app will require the user to create an account and login to set and access reminders. This is a project for the Udacity Android kotlin Nanodegree Program.
 
-## Getting Started
 
-1. Clone the project to your local machine.
-2. Open the project using Android Studio.
+## Features
+
+*### MVVM Architecture
+
 
 ### Dependencies
 
