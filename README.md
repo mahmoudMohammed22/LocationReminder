@@ -35,3 +35,13 @@ Location Reminder is a TO-DO list app with location reminders that remind the us
 * Room
 * Firebase Auth
 * Mockito
+
+## Screen
+![screen 1](https://user-images.githubusercontent.com/58629019/213779136-f6bcc119-c38b-432c-9fc1-24979c46b6b8.jpg)
+![screen 2](https://user-images.githubusercontent.com/58629019/213779158-2609203f-c1f4-4000-89d6-5e72c799d47e.jpg)
+![screen 3](https://user-images.githubusercontent.com/58629019/213779171-4b0c2016-a7cb-46f3-a05f-99794498b10a.jpg)
+![screen 4](https://user-images.githubusercontent.com/58629019/213779187-055ebe2e-2bcd-4765-80fd-053857da8f52.jpg)
+![screen 5](https://user-images.githubusercontent.com/58629019/213779278-02fa6943-030f-4e70-b935-6407cc25c86a.jpg)
+![screen 6](https://user-images.githubusercontent.com/58629019/213779196-24ed554d-b13a-4019-bca5-f3ec7ec5ebdd.jpg)
+![screen 7](https://user-images.githubusercontent.com/58629019/213779207-a6e586ba-1416-4d0c-90bc-dd290cd41d98.jpg)
+
