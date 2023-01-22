@@ -10,6 +10,7 @@ Location Reminder is a TO-DO list app with location reminders that remind the us
 * ### Geofencing API
 * ### Google Maps API
 * ### UI and Unit Testing
+* ### Broadcasts
 
 
 ### Dependencies
